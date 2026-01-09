@@ -1,11 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reliable AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        header {
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        section {
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .courses {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .course-card {
+            background: #fff;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 24px;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .course-card:hover {
+            border-color: #999;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        .course-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #111;
+            margin-bottom: 6px;
+        }
+
+        .course-description {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid #e5e5e5;
+            font-size: 0.875rem;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h1>Teaching</h1>
-    <p>Course on Knowledge Extraction: <a href="https://reliableai.github.io/Sherlock/">Knowledge Extraction Course</a></p>
-    <p>Course on AI Design: <a href="https://reliableai.github.io/ai-design/">AI Design Course</a></p>
+    <div class="container">
+        <header>
+            <h1>Reliable AI</h1>
+            <p class="tagline">Teaching resources for AI and machine learning</p>
+        </header>
+
+        <section>
+            <h2>Courses</h2>
+            <div class="courses">
+                <a href="https://reliableai.github.io/research_methodology/" class="course-card">
+                    <div class="course-title">Research Methodology</div>
+                    <div class="course-description">Foundations of research methods for AI and machine learning</div>
+                </a>
+                <a href="https://reliableai.github.io/Sherlock/" class="course-card">
+                    <div class="course-title">Knowledge Extraction</div>
+                    <div class="course-description">Techniques for extracting and structuring knowledge from data</div>
+                </a>
+                <a href="https://reliableai.github.io/ai-design/" class="course-card">
+                    <div class="course-title">AI Design</div>
+                    <div class="course-description">Principles and practices for designing AI systems</div>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            Reliable AI
+        </footer>
+    </div>
 </body>
 </html>
