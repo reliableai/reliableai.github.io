@@ -19,5 +19,5 @@ Never mention Claude or AI in commit messages.
 ## Linked Course Repositories
 
 - Research Methodology: `reliableai.github.io/research_methodology/`
-- Knowledge Extraction (Sherlock): `reliableai.github.io/Sherlock/`
+- Knowledge Extraction: `reliableai.github.io/knowledge_management/`
 - AI Design: `reliableai.github.io/ai-design/`
