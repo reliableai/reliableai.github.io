@@ -20,4 +20,4 @@ Never mention Claude or AI in commit messages.
 
 - Research Methodology: `reliableai.github.io/research_methodology/`
 - Knowledge Extraction: `reliableai.github.io/knowledge_management/`
-- AI Design: `reliableai.github.io/ai-design-2026/`
+- AI Design: `reliableai.github.io/ai-design-2026-pub/`
